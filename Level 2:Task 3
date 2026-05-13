@@ -1,0 +1,36 @@
+# Level 2 - Task 3: K-Means Clustering Analysis
+
+## Project Overview
+This project implements K-Means Clustering on the Iris dataset using Python and Scikit-learn. The task focuses on grouping similar data points based on feature similarities using unsupervised machine learning techniques.
+
+## Objectives
+- Standardize dataset features
+- Apply K-Means clustering
+- Determine optimal clusters using the Elbow Method
+- Visualize clusters using PCA and scatter plots
+- Save generated outputs
+
+## Tools & Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Project Workflow
+1. Load Iris dataset
+2. Standardize features using StandardScaler
+3. Use Elbow Method to determine optimal K
+4. Apply K-Means clustering
+5. Reduce dimensions using PCA
+6. Visualize clusters
+7. Save outputs
+
+## Outputs
+- elbow_method.png
+- kmeans_clusters.png
+- iris_clustered_data.csv
+
+## Conclusion
+The project successfully demonstrated unsupervised clustering using K-Means. The elbow method identified 3 optimal clusters, while PCA enabled effective visualization of clustered data points.
