@@ -1,0 +1,47 @@
+# Level 3 - Task 1: Predictive Modeling (Classification)
+
+## Project Overview
+This project focuses on customer churn prediction using supervised machine learning models. Multiple classification algorithms were trained, evaluated, and compared to determine the best-performing model.
+
+## Objectives
+- Preprocess the dataset
+- Handle categorical variables
+- Scale features
+- Train multiple classification models
+- Evaluate model performance
+- Perform hyperparameter tuning using GridSearchCV
+
+## Dataset
+Churn BigML 80 Dataset
+
+## Models Used
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+## Best Model
+Random Forest achieved the best performance with approximately 95% accuracy.
+
+## Tools & Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Outputs
+- confusion_matrix.png
+- feature_importance.png
+- feature_importance.csv
+- model_accuracy_comparison.png
+- model_results.csv
+
+## Conclusion
+The project successfully demonstrated customer churn prediction using machine learning classification techniques. Random Forest provided the highest predictive performance after hyperparameter tuning.
